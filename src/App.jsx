@@ -17,7 +17,7 @@ const posts = [
       role: 'CEO @Humores',
     },
     content:[
-      {type: 'paragraph', content: 'Opa jovana bom dia  👋'},
+      {type: 'paragraph', content: 'Opa bom dia  👋'},
       {type: 'paragraph', content: 'Ta ai a mais nova'},
       {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},     
       {type: 'link', content: 'github.com/viictorpaes'},
@@ -29,11 +29,11 @@ const posts = [
     author:{
       avatarUrl: 'https://github.com/MirellaMonteiroM.png',
       name: 'Mirella Borba',
-      role: 'CEO @Viadagem',
+      role: 'CEO @Fashion',
     },
     content:[
-      {type: 'paragraph', content: 'Divou'},
-      {type: 'paragraph', content: 'Giu eh muito diva'},     
+      {type: 'paragraph', content: 'Ola mundo'},
+      {type: 'paragraph', content: 'Meu primeiro post'},     
       {type: 'link', content: 'instagram.com/paesvp'},
     ],
     publishedAt: new Date('2025-03-4 20:00:00'),

@@ -20,7 +20,7 @@ export function Comment(){
                         </button>
                     </header>
 
-                    <p>Divou mano divou 👏👏</p>
+                    <p>Que massa 👏👏</p>
                 </div>
             
                 <footer>
