@@ -6,13 +6,13 @@ import styles from './Post.module.css'
 import { useState } from 'react'
 
 export function Post({ author, publishedAt, content }){
-    const [comments, setComments] = useState([
-        'Que post legal'
-    ])
+    const [comments, setComments] = useState([])
 
     const [newCommentText, setNewCommentText] = useState('')
     
-    const publishedDateFormatted = format(publishedAt, "d 'de' LLLL 'às' HH:mm'h'", {
+    const publishedDateFormatted = 
+        format(publishedAt, "d 'de' LLLL 'às' HH:mm'h'", 
+    {
         locale:ptBR,
     })
 
@@ -78,7 +78,7 @@ export function Post({ author, publishedAt, content }){
                 
                 <textarea
                     name="comment"
-                    placeholder="Deixe um comentario"
+                    placeholder="Comente!!!"
                     value={newCommentText}
                     onChange={handleNewCommentChange}
                     onInvalid={handleNewCommentInvalid}

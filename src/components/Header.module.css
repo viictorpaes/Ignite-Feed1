@@ -7,4 +7,6 @@
 
 .header img{
     height: 2rem;
+    filter: invert(16%) sepia(93%) saturate(5114%) hue-rotate(357deg) brightness(89%) contrast(119%);
+
 }

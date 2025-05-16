@@ -39,7 +39,7 @@ import { useState } from 'react';
                 <footer>
                     <button onClick={handleLikeComment}>
                         <ThumbsUp/>
-                        Aplaudir <span>{likeCount}</span>
+                        Uhuuuu!!! <span>{likeCount}</span>
                     </button>
                 </footer>
             </div>
